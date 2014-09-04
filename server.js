@@ -1,8 +1,8 @@
 var fs = require('fs');
 var Hapi = require('hapi');
 var Basic = require('hapi-auth-basic');
-var cnet = require('cnet');   // validation func that takes
-                              // a cnet_id, password, and callback
+var cnet = require('./cnet');   // validation func that takes
+                                // a cnet_id, password, and callback
 
 var options = {
   tls: {
