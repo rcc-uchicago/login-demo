@@ -7,10 +7,11 @@ In this demo we're [validating](https://github.com/rcc-uchicago/login-demo/blob/
 
 ## Usage
 
+    module load node
     npm install
     npm run start
 
-Once the server is running try opening the login route ([`https://localhost:8080/login`](https://localhost:8080/login)) in a web browser.
+Once the server is running try opening the login route ([`https://ws.rcc.uchicago.edu:8080/login`](https://ws.rcc.uchicago.edu:8080/login)) in a web browser.
 
 You should get prompted for a username and password.  If you have a [CNet ID](https://itservices.uchicago.edu/services/cnetid), you should get authenticated and receive a welcome message.
 
